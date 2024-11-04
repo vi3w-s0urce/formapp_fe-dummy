@@ -189,10 +189,12 @@ const DetailForm = () => {
                                     <div className='flex gap-8 items-center'>
                                         <div className='flex justify-center items-center gap-3'>
                                             <Icon icon='line-md:external-link-rounded' width='30' />
-                                            <Link to={`/forms/${slug}`} className='text-sky-500 font-bold'>
-                                                formapp.viewsource.work/forms/{slug}
-                                            </Link>
-                                            <span className='text-xs'> (Buka link ini dengan akun lain)</span>
+                                            <div className='flex flex-col'>
+                                                <Link to={`/forms/${slug}`} className='text-sky-500 font-bold'>
+                                                    formapp.viewsource.work/forms/{slug}
+                                                </Link>
+                                                <span className='text-xs'> (Buka link ini dengan akun lain)</span>
+                                            </div>
                                         </div>
                                         <div className='flex justify-center items-center gap-3'>
                                             <Icon icon='line-md:account' width='30' />
