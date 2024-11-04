@@ -6,7 +6,7 @@ const Card = (props) => {
         <div key={id} className="shadow-xl bg-white border-2 border-slate-200 hover:border-sky-200 p-5 rounded-xl hover:shadow-sky-200 transition-all duration-300">
             <div className="mb-3">
                 <p className="font-bold text-2xl mb-1">{name}</p>
-                <p className="text-slate-500 text-sm">formapp.viewsource.work/{slug}</p>
+                <p className="text-slate-500 text-sm">formapp.viewsource.work/forms/{slug}</p>
             </div>
             <div>
                 <p>{desc}</p>
