@@ -192,7 +192,7 @@ const DetailForm = () => {
                                             <Link to={`/forms/${slug}`} className='text-sky-500 font-bold'>
                                                 formapp.viewsource.work/forms/{slug}
                                             </Link>
-                                            <span className="text-xs"> (Buka link ini dengan akun lain)</span>
+                                            <span className='text-xs'> (Buka link ini dengan akun lain)</span>
                                         </div>
                                         <div className='flex justify-center items-center gap-3'>
                                             <Icon icon='line-md:account' width='30' />
@@ -373,7 +373,7 @@ const DetailForm = () => {
                                                             {Object.keys(itemsResponse.answer).map((key) => (
                                                                 <div className='border-2 rounded-xl p-4'>
                                                                     <h2 className='text-xl'>{key}</h2>
-                                                                    <p className='mt-2'>{itemsResponse.answer[key]}</p>
+                                                                    <p className='mt-2 text-sky-500'>{itemsResponse.answer[key]}</p>
                                                                 </div>
                                                             ))}
                                                         </div>
