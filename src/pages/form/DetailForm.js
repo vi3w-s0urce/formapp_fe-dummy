@@ -375,7 +375,7 @@ const DetailForm = () => {
                                                             {Object.keys(itemsResponse.answer).map((key) => (
                                                                 <div className='border-2 rounded-xl p-4'>
                                                                     <h2 className='text-xl'>{key}</h2>
-                                                                    <p className='mt-2 text-sky-500'>{itemsResponse.answer[key]}</p>
+                                                                    <p className='mt-2 text-sky-500 font-bold'>{itemsResponse.answer[key]}</p>
                                                                 </div>
                                                             ))}
                                                         </div>
